@@ -2,6 +2,7 @@
 title: "Syllabus"
 format: html
 editor: visual
+theme: default
 ---
 
 ## STA2453 - Data Science Methods, Collaboration, and Communication
@@ -29,6 +30,51 @@ Students will learn about these topics by working on projects based on problems 
 
 Class time will be a mixture of informal lectures, class discussions, and student presentations.
 
+### Assignments and Projects
+
+-   Weekly logs & updates using a project manager (20%)
+-   Github repository + code (15%)
+-   Project
+    -   Proposal (10%) (1-page)
+    -   Exploratory Data Analysis (10%) (2-4 pages)
+    -   Progress Report (10%) (3-5 pages)
+    -   Final Report (20%) (5-7 pages)
+    -   Presentation (10%) (length TBD)
+-   Participation (5%)
+
+#### Project Managers
+
+You will be expected to use a project manager throughout the course and update it weekly. It should include both what you aim to accomplish over the next week and what you have accomplished in the previous week. Your tasks should be well-described.
+
+It is up to you to choose what you want to use, but two examples are:
+
+[notion](https://www.notion.com)
+
+[trello](https://trello.com)
+
+#### Github + code etiquette
+
+[github](https://github.com)
+
+[styleguide](https://google.github.io/styleguide/)
+
+### Course Schedule
+
+| Date   | Description                        | Reading | Due                                              |
+|------------------|-------------------|------------------|------------------|
+| Jan 8  | Introduction to course             |         |                                                  |
+| Jan 15 | Project discussions + DS/ML topics |         | WL                                               |
+| Jan 22 | EDA + Visualization                |         | WL                                               |
+| Jan 29 | DS + ML topics                     |         | Proposal + WL                                    |
+| Feb 5  | Github/coding/Reports              |         | WL                                               |
+| Feb 12 | DS + ML topics                     |         | EDA + WL                                         |
+| Feb 26 | Communication                      |         | WL                                               |
+| Mar 5  | DS + ML topics                     |         | Progress Report + WL + GH repository (1)         |
+| Mar 12 | Project structures                 |         | WL                                               |
+| Mar 19 | DS + ML topics                     |         | WL                                               |
+| Mar 26 | DS + ML topics                     |         | WL                                               |
+| Apr 2  | Presentations                      |         | Final Report + Presentations + GH Repository (2) |
+
 ### Evaluation
 
 All work will be graded on a scale from 1 to 4 (sometimes with pluses and minuses) where:
@@ -41,8 +87,6 @@ All work will be graded on a scale from 1 to 4 (sometimes with pluses and minuse
 | 4           | Excellent work; exceeds expectations.                     |
 
 Grades will almost always be 2 or 3 (1’s and 4’s are rare). Generally speaking, a 2 is a B, a 3 is an A, and a 4 is an A+.
-
-
 
 ### Required Readings
 
@@ -79,20 +123,3 @@ Announcements will be posted on Quercus. Please check there regularly. If an urg
 ### Accessibility:
 
 Students with diverse learning styles and needs are welcome in this course. In particular, if you have a disability/health consideration that may require accommodations, please feel free to approach me and/or Accessibility Services as soon as possible. https://studentlife.utoronto.ca/wp-content/uploads/Accessibility-Services-Undergraduate-Handbook-2021-2022.pdf
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
