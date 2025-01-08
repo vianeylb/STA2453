@@ -1,0 +1,98 @@
+---
+title: "Syllabus"
+format: html
+editor: visual
+---
+
+## STA2453 - Data Science Methods, Collaboration, and Communication
+
+Instructor: Dr. Vianey Leos Barajas (Last names: Leos Barajas)
+
+Office Hours: TBD
+
+Teaching Assistant: Arturo Esquivel (PhD student in DoSS)
+
+### Course Description
+
+Students will gain experience with the data science process including:
+
+-   Data collection
+-   Data wrangling
+-   Program ([Python](https://www.python.org/)/[R](https://cran.r-project.org/))
+-   Data exploration
+-   Data vizualization
+-   Modelling
+-   Communication
+-   Reproducibility
+
+Students will learn about these topics by working on projects based on problems that data scientists face in industry and academic research. All projects will involve some type of collaboration or communication. Students are expected to be familiar with the application of basic statistical methods used for inference (e.g., general linear models), prediction (e.g., linear and logistic regression), and are comfortable with basic data analysis using a programming language such as R or Python. Students will be expected to adopt a reproducible research workflow using tools such as [Github](https://github.com/), and [RMarkdown](https://rmarkdown.rstudio.com/), [Quarto](https://quarto.org) or [Jupyter](https://jupyter.org/).
+
+Class time will be a mixture of informal lectures, class discussions, and student presentations.
+
+### Evaluation
+
+All work will be graded on a scale from 1 to 4 (sometimes with pluses and minuses) where:
+
+| Grade Value | Description                                               |
+|-------------|:----------------------------------------------------------|
+| 1           | Work does not meet expectations.                          |
+| 2           | Work meets expectations minimally, possibly missing some. |
+| 3           | Good work; meets all or most expectations.                |
+| 4           | Excellent work; exceeds expectations.                     |
+
+Grades will almost always be 2 or 3 (1’s and 4’s are rare). Generally speaking, a 2 is a B, a 3 is an A, and a 4 is an A+.
+
+
+
+### Required Readings
+
+[Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html)
+
+[Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html)
+
+[Introduction to Statistical Learning](https://www.statlearning.com)
+
+[Deep Learning: Foundations and Concepts](https://www.bishopbook.com)
+
+[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+Other readings may be assigned during the course.
+
+### Questions about the course content/homework and sending an email:
+
+E-mail is appropriate for private communication. Use your utoronto.ca account to ensure that your message does not automatically go to my junk folder. When sending an e-mail, please follow professional e-mail etiquette, use STA2453 as the subject line, and be specific about what it is you need from me – this will help me respond in a timely manner. An example below:
+
+Subject line: STA2453
+
+Content:
+
+*Dr. Leos Barajas,*
+
+*I would like to know more about common models used in data science. Do you have any books you would recommend on the topic?*
+
+*Best/Thank you/Other appropriate way to close an email*
+
+*(Insert your name here)*
+
+Announcements will be posted on Quercus. Please check there regularly. If an urgent matter arises, I may contact the entire class by e-mail. In order to receive these messages, please make sure that your ROSI account has your utoronto.ca e-mail.
+
+### Accessibility:
+
+Students with diverse learning styles and needs are welcome in this course. In particular, if you have a disability/health consideration that may require accommodations, please feel free to approach me and/or Accessibility Services as soon as possible. https://studentlife.utoronto.ca/wp-content/uploads/Accessibility-Services-Undergraduate-Handbook-2021-2022.pdf
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
